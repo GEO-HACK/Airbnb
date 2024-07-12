@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat' , sans-serif;
+
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  padding: 20px  36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+
+
+}
+.gray{
+  color: rgb(58, 66, 73);
+}
+.bold{
+  font-weight: bold;
+}
+section{
+  padding: 20px 36px;
+  
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+
+}
+.hero--photo{
+  max-width:800px;
+  align-self: center;
+}
+.hero--header{
+  margin: 10px 0px;
+}
+.hero--text{
+  margin-top: 0;
+  width: 40%;
+}
+.cards{
+  display: flex;
+  flex-wrap:nowrap;
+  
+  margin-left: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+  overflow-x: auto;
+
+}
+.card--stats{
+  display: flex;
+  align-items: center;
+}
+.card--star{
+  width: 20px;
+  height: auto;
+}
+.contact--card{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+  
+  background-color: thistle;
+  border-radius: 5px;
+  width: 200px;
+  height: auto;
+
+}
+.card--image {
+  width: 200px;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+
+}
+.card--details{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 5px 10px;
+}
+.badge{
+  position: absolute;
+  background-color: rgb(173, 101, 190) ;
+  padding: 6px;
+  top: 10px;
+  left: 10px;
+  display: block;
+}
